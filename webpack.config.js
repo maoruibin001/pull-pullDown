@@ -17,8 +17,14 @@ const config = {
   },
   module: {
     loaders: [
-      {test: /\.js$/, loader: 'babel-loader', exclude: resolve('./node_modules')}
+      {test: /\.js$/, loader: 'babel-loader', exclude: resolve('./node_modules')},
+      {test: /\.tpl/, loader: 'string-loader'}
     ],
+  },
+  resolve: {
+    alias: {
+      'vue': 'vue/dist/vue.common.js'
+    }
   },
   plugins: [
     new HtmlPlugin({
