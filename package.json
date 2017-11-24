@@ -1,0 +1,28 @@
+{
+  "name": "pull-pulldown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.1",
+    "babel-loader": "^7.1.2",
+    "babel-core": "^6.26.0",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack-dev-server": "^2.9.4",
+    "webpack": "^3.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maoruibin001/pull-pullDown.git"
+  },
+  "author": "maoruibin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/maoruibin001/pull-pullDown/issues"
+  },
+  "homepage": "https://github.com/maoruibin001/pull-pullDown#readme"
+}
