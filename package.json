@@ -8,8 +8,10 @@
     "start": "webpack-dev-server"
   },
   "dependencies": {
-    "vue": "^2.5.8",
-    "jquery": "^3.2.1"
+    "compression": "^1.7.1",
+    "ejs": "^2.5.7",
+    "jquery": "^3.2.1",
+    "vue": "^2.5.8"
   },
   "devDependencies": {
     "string-loader": "^0.0.1",
